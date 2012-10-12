@@ -1,4 +1,4 @@
-# [Painter]
+# Painter
 
 Painter is a webapp based on HTML5 Canvas which allows you to easily draw beautifull pictures with simple tools.
 
