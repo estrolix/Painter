@@ -1,8 +1,6 @@
-/* Author: Estrolix */
-
 /**
-* @todo
-*/
+ * @author Estrolix (estrolix.com)
+ */
 
 function Painter(canvas_obj)
 {
