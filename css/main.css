@@ -1,0 +1,62 @@
+.separator {
+	margin: 20px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.header {
+	padding: 20px 0;
+}
+
+.header .learnMoreBtn {
+	float: right;
+}
+
+.loginBtnsWrapper {
+	padding: 20px 0;
+	text-align: center;
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.3) inset;
+}
+
+	.loginBtnsWrapper .joinBtn,
+	.loginBtnsWrapper .signInBtn {
+		width: 40%;
+		/*padding: 15px 0;*/
+	}
+
+	.loginBtnsWrapper h4 {
+		margin: 10px 0;
+	}
+
+	.loginBtnsWrapper .startDrawingBtn {
+		display: block;
+		padding: 15px 14px;
+	}
+
+.latestDrawingsTitle {
+	padding: 20px 0;
+}
+
+	.latestDrawings {
+		padding-bottom: 20px;
+		border-bottom: 1px solid gray;
+	}
+
+	.latestDrawings img {
+		width: 100%;
+		border-radius: 5px;
+		border: 3px solid white;
+		box-shadow: 1px 1px 7px rgba(0,0,0,0.3);
+	}
+
+	.latestDrawings .details {
+		font-size: 11px;
+		margin-top: 3px;
+	}
+
+		.latestDrawings .details .author {
+			float: left;
+		}
+
+		.latestDrawings .details .time {
+			float: right;
+		}

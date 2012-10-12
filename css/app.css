@@ -1,0 +1,178 @@
+/*@import url(http://fonts.googleapis.com/css?family=Trocchi);*/
+/*@import url(http://fonts.googleapis.com/css?family=Original+Surfer);*/
+@import url(http://fonts.googleapis.com/css?family=Salsa);
+
+body {
+	background: #ddd;
+	background: url('../img/bg.png') repeat;	
+}
+
+#logo, #board, #toolbox, footer {
+	display: none;
+}
+
+#logo {
+	font-family: 'Salsa', serif;
+	font-size: 80px;
+	margin: 30px auto 0;
+	width: 800px;
+	text-align: center;
+	
+}
+
+	#logo .highlight {
+		background: #df4b26;
+		
+		background: -moz-linear-gradient(top, #df4b26 0%, #be3d1d 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#df4b26), color-stop(100%,#be3d1d)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #df4b26 0%,#be3d1d 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #df4b26 0%,#be3d1d 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #df4b26 0%,#be3d1d 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #df4b26 0%,#be3d1d 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df4b26', endColorstr='#be3d1d',GradientType=0 ); /* IE6-9 */
+
+		color: white;
+		padding: 0 11px 0 6px;
+		border-radius: 12px;
+		box-shadow: 0px 2px 4px #777;
+		text-shadow: 0px 2px 3px #777;
+	}
+	#logo .normal {
+		padding-left: 3px;
+		text-shadow: 0px 2px 3px #777;
+	}
+
+footer {
+	width: 800px;
+	text-align: center;
+	text-shadow: 0px 2px 3px #777;
+	font-family: 'Salsa', serif;
+	font-size: 12px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -400px;
+	z-index: -1;
+}
+
+#board {
+	margin: 50px auto 30px;
+	background: white;
+	width: 800px;
+	height: 450px;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 20px gray;
+}
+
+#painting {
+	width: 800px;
+	height: 450px;
+	border: 1px solid #ddd;
+	/*border-radius: 10px;*/
+	/*box-shadow: 0px 1px 6px rgba(0,0,0,0.3) inset;*/
+	cursor: default;
+}
+
+#painting:active {
+	cursor: pointer;
+}
+
+#toolbox {
+	width: 800px;
+	height: 75px;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 20px gray;
+	background: white;
+	margin: 0 auto 30px;
+}
+
+	#toolbox .middleLine {
+		height: 12px;
+		line-height: 12px;
+		margin-top: 31px;
+		float: left;
+	}
+
+		#toolbox .middleLine label {
+			cursor: default;
+			font-size: 14px;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.35);
+			float: left;
+			display: block;
+			margin-right: 15px;
+		}
+
+#brushPreview {
+	box-shadow: 0px 1px 6px rgba(0,0,0,0.3) inset;
+	border-radius: 50px;
+	margin-right: 20px;
+	float: left;
+}
+
+#brushSizeSlider, #brushOpacitySlider {
+	float: right;
+	width: 120px;
+}
+
+.middleLine .wrapper {
+	float: left;
+	margin-right: 30px;
+}
+
+.middleLine .wrapperColor {
+	/*width: 80px;*/
+}
+
+.middleLine .wrapperSize {
+	/*width: 175px;*/
+}
+
+.middleLine .wrapperOpacity {
+	/*width: 185px;*/
+}
+
+.middleLine .slider {
+	height: 7px;
+	margin-top: 2px;
+}
+
+.middleLine .slider .ui-slider-handle {
+	width: 17px;
+	height: 17px;
+	border-radius: 12px;
+	background: -moz-linear-gradient(center top , #FFFFFF, #FFFFFF 25%, #E6E6E6) repeat scroll 0 0 transparent;
+}
+
+#colorPositionFix {
+	float: left;
+	margin: -4px 6px 0 0;
+}
+
+#historyButtonsContainer {
+	width: 27px;
+	float: left;
+	margin-top: -18px;
+}
+
+#historyRedo {
+	margin-bottom: 2px;
+}
+
+.middleLine .wrapperSave {
+	margin-right: 0;
+}
+
+.middleLine .wrapperForButton {
+	margin: -5px 5px 0 0;
+}
+
+.ui-dialog {
+	font-size: 12px !important;
+}
+
+#dialog-confirmClearing {
+	/*overflow: hidden;*/
+	display: none;
+}
